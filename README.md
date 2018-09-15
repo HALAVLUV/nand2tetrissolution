@@ -1,5 +1,5 @@
-# nand2tetrissolution
-My solution for Nand2Tetris, as part of high school cyber class.
+# NAND2Tetris Solution
+My solution for Nand2Tetris, as part of high school cyber studies.
 
 Way to completion:
 - [x] Project 1
