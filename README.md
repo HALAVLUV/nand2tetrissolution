@@ -3,7 +3,7 @@ My solution for Nand2Tetris, as part of high school cyber studies.
 
 Way to completion:
 - [x] Project 1
-- [ ] Project 2
+- [x] Project 2
 - [ ] Project 3
 - [ ] Project 4
 - [ ] Project 5
