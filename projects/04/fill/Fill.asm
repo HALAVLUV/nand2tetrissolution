@@ -12,3 +12,34 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+(RESET)  	//initializes i - index that runs on the screen's pixels
+	@8192
+	D=A
+	@i
+	M=D
+(LOOP)
+	@i
+	M=M-1
+	D=M
+	@RESET
+	D;JLT
+    @24576
+    D = M
+    @INT
+    D;JNE
+    (WHITE)
+        @SCREEN            
+	    D = A                
+	    @i        
+        A = D + M
+        M = 0
+        @LOOP
+        0;JMP
+    (INT)
+        @SCREEN            
+        D = A                
+        @i        
+        A = D + M
+        M = -1
+        @LOOP
+        0;JMP
