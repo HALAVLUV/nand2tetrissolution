@@ -7,7 +7,6 @@ Way to completion:
 - [x] Project 3
 - [x] Project 4
 - [x] Project 5
-- [ ] Project 5
 - [ ] Project 6
 - [ ] Project 7
 - [ ] Project 8
